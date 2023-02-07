@@ -1,0 +1,139 @@
+@media screen and (max-width: 600px) {
+    .main .header {
+        display: block;
+    }
+    .edit-todo-form-on {
+        display: none;
+    }
+    .app{
+        display: block;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main .header {
+        display: block;
+        
+    }
+    .edit-todo-form-on {
+        display: none;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .main .header {
+        display: block;
+    }
+
+    .edit-todo-form-on {
+        display: none;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 575px) {
+    
+    .main .header {
+        display: block;
+    }
+
+    .edit-todo-form-on {
+        display: none;
+    }
+
+    .edit-todo-form-on input,
+    .edit-todo-form-on select {
+        border: 0;
+        width: 100%;
+        padding: 3px 0;
+        font-size: 16px;
+        background-color: transparent;
+    }
+
+    .edit-todo-form-on input:focus,
+    .edit-todo-form-on select:focus {
+        outline: none;
+    }
+
+    .create-todo-form-on, .edit-todo-form-on {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex: .8;
+    }
+
+    .create-todo-form-on input, .edit-todo-form-on input {
+        border-bottom: 2px solid #b4b3cb;
+        width: 350px;
+    }
+
+    .create-todo-form select {
+        position: absolute;
+        top: 197px;
+        width: 90%;
+    }
+
+    .todos-container {
+        grid-template-columns:  repeat(1,1fr);
+    }
+
+
+    .currently-viewing  > span {
+        margin-right: 170px;
+    }
+    
+    .create-todo-form input, 
+    .edit-todo-form input {
+        margin-right: 26px;
+    } 
+    
+
+    .switch {
+        position: fixed;
+    }
+
+    
+}
+
+@media screen and (max-width: 415px){
+    .currently-viewing > span {
+        margin-right: 10px;
+    }
+
+    .btn-2 {
+        position: relative;
+        top: 46px;
+        left: -370px;
+    }
+
+    .create-todo-form input {
+        margin-top: 40px;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .form {
+        display: block;
+    }
+
+    .create-todo-form select {
+        width: 92%;
+    }
+
+    .btn {
+        margin: 10px 0;
+    }
+
+}
